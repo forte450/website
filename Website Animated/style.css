@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#main{
+height: 100%;
+width: 100%;
+background-color: hsl(346deg 17% 70%);
+display: flex;
+
+}
+#part1{
+    height: 100%;
+    width: 26%;
+    
+}
+#part2{
+    height: 100%;
+    width: 67%;
+    background-color: rgb(102, 0, 255);
+    background-image: url(https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(161,145,149,0.5);
+}
+#part3{
+    height: 100%;
+    width: 7%;
+}
+#text-div{
+    position: absolute;
+    width: 400px;
+     left: 7%;
+    top:50%;
+    transform: translate(0,-50%);
+}
+#text-div>h1{
+    font-size: 95px;
+    font-family: sans-serif;
+    font-weight: 800;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    line-height: 78px;
+    color: #fff;
+}
+#small-img-div{
+    height: 400px;
+    width: 300px;
+    top: 50%;
+    right: 5%;
+    transform: translate(0, -50%);
+    position:absolute;
+    background-image: url(https://images.unsplash.com/photo-1534008757030-27299c4371b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#vertical-text{
+    position: absolute;
+    /* width: 100%; */
+        right: -15%;
+     /* transform-origin: 0% 0%; */ 
+    transform: rotate(90deg);
+   top: 34%;
+}
+#vertical-text h1{
+    font-size: 60px;
+    font-weight: 900;
+    font-family: sans-serif ;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #ffffff81;
+    color: transparent;
+    letter-spacing: 10px;
+    text-transform: uppercase; 
+}
+#nav{
+    position: absolute;
+    display: flex;
+    width: 450px;
+  align-items: center;
+    justify-content: space-between;
+    left: 8%;
+    top: 5%;
+}
+#nav img{
+    height: 60px;
+}
+#nav h5{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #fff;
+}
